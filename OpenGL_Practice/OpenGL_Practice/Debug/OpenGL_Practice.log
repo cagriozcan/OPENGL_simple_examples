@@ -1,7 +1,7 @@
-﻿Build started 11.09.2018 18:25:48.
+﻿Build started 12.09.2018 17:09:57.
      1>Project "C:\Users\cagri.ozcan\Documents\Git_Projects\OPENGL\OpenGL_Practice\OpenGL_Practice\OpenGL_Practice.vcxproj" on node 2 (Build target(s)).
      1>InitializeBuildStatus:
-         Touching "Debug\OpenGL_Practice.tlog\unsuccessfulbuild".
+         Creating "Debug\OpenGL_Practice.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
          C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt HelloWorld.cpp
@@ -19,4 +19,4 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.04
+Time Elapsed 00:00:01.27
