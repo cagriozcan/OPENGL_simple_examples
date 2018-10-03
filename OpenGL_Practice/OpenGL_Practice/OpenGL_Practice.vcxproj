@@ -121,8 +121,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="glad.c" />
-    <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Source\glad.c" />
+    <ClCompile Include="Source\HelloWorld.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
