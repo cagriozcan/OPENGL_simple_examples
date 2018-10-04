@@ -19,13 +19,13 @@
     <ClCompile Include="Source\HelloWorld.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="Shader.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Shader.h">
+    <None Include="..\Shaders\texture.fs">
       <Filter>Source</Filter>
-    </ClInclude>
+    </None>
+    <None Include="..\Shaders\texture.vs">
+      <Filter>Source</Filter>
+    </None>
   </ItemGroup>
 </Project>
