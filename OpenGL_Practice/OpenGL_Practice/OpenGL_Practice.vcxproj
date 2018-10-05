@@ -127,18 +127,8 @@
     <ClCompile Include="Source\HelloWorld.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Shaders\texture.fs">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-      </ExcludedFromBuild>
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-      </DeploymentContent>
-      <FileType>Document</FileType>
-    </None>
-    <None Include="..\Shaders\texture.vs">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-      </ExcludedFromBuild>
-      <FileType>Document</FileType>
-    </None>
+    <None Include="texture.fs" />
+    <None Include="texture.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
